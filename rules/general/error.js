@@ -4,7 +4,15 @@ module.exports = {
 
     // Ensure RegExp strings are valid
     // http://eslint.org/docs/rules/no-invalid-regexp
-    'no-invalid-regexp': 'error'
+    'no-invalid-regexp': 'error',
+
+    // Disallow undeclared variables
+    // https://eslint.org/docs/rules/no-undef
+    'no-undef': 'error',
+
+    // Disallow unused variables
+    // https://eslint.org/docs/rules/no-unused-vars
+    'no-unused-vars': 'error',
 
   }
 

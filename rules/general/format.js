@@ -128,6 +128,14 @@ module.exports = {
     // http://eslint.org/docs/rules/space-before-blocks
     'space-before-blocks': ['error', 'always'],
 
+    // Require a space before function parenthesis in non-named functions
+    // https://eslint.org/docs/rules/space-before-function-paren
+    'space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always'
+    }],
+
     // Prohibit spaces inside parens (immediately adjacent to paren)
     // http://eslint.org/docs/rules/space-in-parens
     'space-in-parens': ['error', 'never'],
