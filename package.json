@@ -2,32 +2,19 @@
   "name": "eslint-config-wowser-base",
   "version": "0.2.0",
   "description": "Base ESLint configuration for Wowser",
+  "author": "Wowser Contributors",
+  "repository": "github:wowserhq/eslint-config-wowser-base",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "list-rules": "eslint-find-rules --current ./index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wowserhq/eslint-config-wowser-base"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "wowser"
   ],
-  "author": "Tim Kurvers <tim@moonsphere.net>",
-  "contributors": [
-    {
-      "name": "fallenoak",
-      "url": "https://twitter.com/fallenoak"
-    }
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wowserhq/eslint-config-wowser-base/issues"
-  },
-  "homepage": "https://github.com/wowserhq/eslint-config-wowser-base",
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-find-rules": "^3.1.0",
