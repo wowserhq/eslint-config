@@ -8,10 +8,11 @@ Licensed under the **MIT** license, see LICENSE for more information.
 
 ## Usage
 
-To install `eslint-config-wowser-base`:
+To install `eslint-config-wowser-base` and its dependencies:
 
 ```shell
 npm install eslint-config-wowser-base --save-dev
+npm install eslint-plugin-import --save-dev
 npm install eslint --save-dev
 ```
 
