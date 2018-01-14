@@ -26,6 +26,10 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
     'import/no-webpack-loader-syntax': 'error',
 
+    // Enforce a convention in module import order
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+    'import/order': 'error',
+
     // Require modules with a single export to use a default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 'error',
@@ -41,6 +45,10 @@ module.exports = {
     // Require variables to be declared with let or const instead of var
     // http://eslint.org/docs/rules/no-var
     'no-var': 'error',
+
+    // Suggest using const
+    // https://eslint.org/docs/rules/prefer-const
+    'prefer-const': 'error',
 
     // Require template literals instead of string concat
     // http://eslint.org/docs/rules/prefer-template
