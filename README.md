@@ -8,10 +8,10 @@ Licensed under the [**MIT** license](LICENSE).
 
 ## Usage
 
-To install `eslint-config-wowser-base` and its dependencies:
+To install `@wowserhq/eslint-config` and its dependencies:
 
 ```shell
-npm install eslint-config-wowser-base --save-dev
+npm install @wowserhq/eslint-config --save-dev
 npm install eslint-plugin-import --save-dev
 npm install eslint --save-dev
 ```
@@ -20,6 +20,6 @@ Tweak `.eslintrc`:
 
 ```json
 {
-  "extends": "eslint-config-wowser-base"
+  "extends": "@wowserhq/eslint-config"
 }
 ```
