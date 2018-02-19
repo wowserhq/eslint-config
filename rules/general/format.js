@@ -16,6 +16,11 @@ module.exports = {
       properties: 'never'
     }],
 
+    // Require trailing commas when the last element is on a different line
+    // than the closing bracket or curly brace
+    // https://eslint.org/docs/rules/comma-dangle
+    'comma-dangle': ['error', 'always-multiline'],
+
     // Require braces for control statements, except when control statement shares the line
     // https://eslint.org/docs/rules/curly
     'curly': ['error', 'multi-line'],
