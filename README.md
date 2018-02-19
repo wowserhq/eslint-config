@@ -1,4 +1,4 @@
-# Wowser Base ESLint Configuration
+# Wowser ESLint Configuration
 
 [![Version](https://img.shields.io/npm/v/eslint-config-wowser-base.svg?style=flat)](https://www.npmjs.org/package/eslint-config-wowser-base)
 

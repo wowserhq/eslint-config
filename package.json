@@ -1,7 +1,7 @@
 {
   "name": "@wowserhq/eslint-config",
   "version": "0.2.0",
-  "description": "Base ESLint configuration for Wowser",
+  "description": "ESLint configuration for Wowser",
   "author": "Wowser Contributors",
   "repository": "github:wowserhq/eslint-config-wowser-base",
   "license": "MIT",
