@@ -51,5 +51,5 @@ module.exports = {
     // Require template literals instead of string concat
     // https://eslint.org/docs/rules/prefer-template
     'prefer-template': 'error',
-  }
+  },
 };

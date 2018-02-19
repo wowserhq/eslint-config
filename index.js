@@ -4,7 +4,7 @@ module.exports = {
     './rules/general/style',
     './rules/general/error',
     './rules/es2015/style',
-    './rules/es2015/error'
+    './rules/es2015/error',
   ].map(require.resolve),
 
   parserOptions: {
@@ -16,10 +16,10 @@ module.exports = {
   },
 
   plugins: [
-    'import'
+    'import',
   ],
 
   rules: {
     strict: 'error',
-  }
+  },
 };

@@ -11,5 +11,5 @@ module.exports = {
     // Disallow unused variables
     // https://eslint.org/docs/rules/no-unused-vars
     'no-unused-vars': 'error',
-  }
+  },
 };

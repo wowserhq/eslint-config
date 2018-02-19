@@ -8,7 +8,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
     'import/no-unresolved': ['error', {
       commonjs: true,
-      caseSensitive: true
+      caseSensitive: true,
     }],
 
     // Ensure const variables are not reassigned or modified
@@ -18,5 +18,5 @@ module.exports = {
     // Ensure super() is called first in constructors (for derived classes)
     // https://eslint.org/docs/rules/no-this-before-super
     'no-this-before-super': 'error',
-  }
+  },
 };

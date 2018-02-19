@@ -7,13 +7,13 @@ module.exports = {
     // Require one true brace style, but allow single line braces
     // https://eslint.org/docs/rules/brace-style
     'brace-style': ['error', '1tbs', {
-      allowSingleLine: true
+      allowSingleLine: true,
     }],
 
     // Require camelcased names, except for properties
     // https://eslint.org/docs/rules/camelcase
     'camelcase': ['error', {
-      properties: 'never'
+      properties: 'never',
     }],
 
     // Require trailing commas when the last element is on a different line
@@ -41,12 +41,12 @@ module.exports = {
       outerIIFEBody: 1,
       FunctionDeclaration: {
         parameters: 1,
-        body: 1
+        body: 1,
       },
       FunctionExpression: {
         parameters: 1,
-        body: 1
-      }
+        body: 1,
+      },
     }],
 
     // Require spacing before and after common keywords, except in certain cases
@@ -57,8 +57,8 @@ module.exports = {
       overrides: {
         return: { after: true },
         throw: { after: true },
-        case: { after: true }
-      }
+        case: { after: true },
+      },
     }],
 
     // Require only-LF line breaks
@@ -102,7 +102,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-multiple-empty-lines
     'no-multiple-empty-lines': ['error', {
       max: 2,
-      maxEOF: 1
+      maxEOF: 1,
     }],
 
     // Prohibit more than one consecutive space in RegExp literals
@@ -136,7 +136,7 @@ module.exports = {
     'space-before-function-paren': ['error', {
       anonymous: 'always',
       named: 'never',
-      asyncArrow: 'always'
+      asyncArrow: 'always',
     }],
 
     // Prohibit spaces inside parens (immediately adjacent to paren)
@@ -154,5 +154,5 @@ module.exports = {
     // Prohibit the Unicode byte order marker
     // https://eslint.org/docs/rules/unicode-bom
     'unicode-bom': ['error', 'never'],
-  }
+  },
 };
