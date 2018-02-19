@@ -1,6 +1,6 @@
 # Wowser ESLint Configuration
 
-[![Version](https://img.shields.io/npm/v/eslint-config-wowser-base.svg?style=flat)](https://www.npmjs.org/package/eslint-config-wowser-base)
+[![Version](https://img.shields.io/npm/v/@wowserhq/eslint-config.svg?style=flat)](https://www.npmjs.org/package/@wowserhq/eslint-config)
 
 This shareable ESLint configuration is used across all Wowser projects.
 
