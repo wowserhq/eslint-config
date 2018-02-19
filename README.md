@@ -4,7 +4,7 @@
 
 This shareable ESLint configuration is used across all Wowser projects.
 
-Licensed under the **MIT** license, see LICENSE for more information.
+Licensed under the [**MIT** license](LICENSE).
 
 ## Usage
 
