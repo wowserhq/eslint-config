@@ -3,7 +3,7 @@ module.exports = {
   rules: {
 
     // Ensure presence of super() in constructors (for derived classes)
-    // http://eslint.org/docs/rules/constructor-super
+    // https://eslint.org/docs/rules/constructor-super
     'constructor-super': 'error',
 
     // Ensure imports point to resolveable modules
@@ -14,11 +14,11 @@ module.exports = {
     }],
 
     // Ensure const variables are not reassigned or modified
-    // http://eslint.org/docs/rules/no-const-assign
+    // https://eslint.org/docs/rules/no-const-assign
     'no-const-assign': 'error',
 
     // Ensure super() is called first in constructors (for derived classes)
-    // http://eslint.org/docs/rules/no-this-before-super
+    // https://eslint.org/docs/rules/no-this-before-super
     'no-this-before-super': 'error',
 
   }
