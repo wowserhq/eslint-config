@@ -1,7 +1,5 @@
 module.exports = {
-
   rules: {
-
     // Ensure presence of super() in constructors (for derived classes)
     // https://eslint.org/docs/rules/constructor-super
     'constructor-super': 'error',
@@ -20,7 +18,5 @@ module.exports = {
     // Ensure super() is called first in constructors (for derived classes)
     // https://eslint.org/docs/rules/no-this-before-super
     'no-this-before-super': 'error',
-
   }
-
 };

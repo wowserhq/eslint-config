@@ -1,7 +1,5 @@
 module.exports = {
-
   rules: {
-
     // Require type-safe equality comparisons, except when comparing with null literals
     // https://eslint.org/docs/rules/eqeqeq
     'eqeqeq': ['error', 'always', {
@@ -43,7 +41,5 @@ module.exports = {
     // Prohibit invalid JSDoc annotations (when present)
     // https://eslint.org/docs/rules/valid-jsdoc
     'valid-jsdoc': 'error'
-
   }
-
 };

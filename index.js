@@ -1,5 +1,4 @@
 module.exports = {
-
   extends: [
     './rules/general/format',
     './rules/general/style',
@@ -23,5 +22,4 @@ module.exports = {
   rules: {
     strict: 'error',
   }
-
 };
