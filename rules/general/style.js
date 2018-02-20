@@ -36,6 +36,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unsafe-negation
     'no-unsafe-negation': 'error',
 
+    // Prohibit padding at beginning/end of blocks, classes and switch statements
+    // https://eslint.org/docs/rules/padded-blocks
+    'padded-blocks': ['error', 'never'],
+
     // Prohibit invalid JSDoc annotations (when present)
     // https://eslint.org/docs/rules/valid-jsdoc
     'valid-jsdoc': 'error'
