@@ -35,15 +35,15 @@ module.exports = {
     'import/prefer-default-export': 'error',
 
     // Prohibit silently overriding class members
-    // http://eslint.org/docs/rules/no-dupe-class-members
+    // https://eslint.org/docs/rules/no-dupe-class-members
     'no-dupe-class-members': 'error',
 
     // Prohibit constructors when default is sufficient
-    // http://eslint.org/docs/rules/no-useless-constructor
+    // https://eslint.org/docs/rules/no-useless-constructor
     'no-useless-constructor': 'error',
 
     // Require variables to be declared with let or const instead of var
-    // http://eslint.org/docs/rules/no-var
+    // https://eslint.org/docs/rules/no-var
     'no-var': 'error',
 
     // Suggest using const
@@ -51,7 +51,7 @@ module.exports = {
     'prefer-const': 'error',
 
     // Require template literals instead of string concat
-    // http://eslint.org/docs/rules/prefer-template
+    // https://eslint.org/docs/rules/prefer-template
     'prefer-template': 'error',
 
   }

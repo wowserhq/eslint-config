@@ -3,7 +3,7 @@ module.exports = {
   rules: {
 
     // Ensure RegExp strings are valid
-    // http://eslint.org/docs/rules/no-invalid-regexp
+    // https://eslint.org/docs/rules/no-invalid-regexp
     'no-invalid-regexp': 'error',
 
     // Disallow undeclared variables
