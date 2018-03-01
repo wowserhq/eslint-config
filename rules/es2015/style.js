@@ -1,7 +1,5 @@
 module.exports = {
-
   rules: {
-
     // Require import statements to appear before non-import statements (absolute-before-relative)
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
     'import/first': ['error', 'absolute-first'],
@@ -53,7 +51,5 @@ module.exports = {
     // Require template literals instead of string concat
     // https://eslint.org/docs/rules/prefer-template
     'prefer-template': 'error',
-
   }
-
 };

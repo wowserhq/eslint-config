@@ -1,7 +1,5 @@
 module.exports = {
-
   rules: {
-
     // Prohibit space before or after array brackets, apart from line breaks
     // https://eslint.org/docs/rules/array-bracket-spacing
     'array-bracket-spacing': ['error', 'never'],
@@ -151,7 +149,5 @@ module.exports = {
     // Prohibit the Unicode byte order marker
     // https://eslint.org/docs/rules/unicode-bom
     'unicode-bom': ['error', 'never'],
-
   }
-
 };
