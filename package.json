@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "ESLint configuration for Wowser",
   "author": "Wowser Contributors",
-  "repository": "github:wowserhq/eslint-config-wowser-base",
+  "repository": "github:wowserhq/eslint-config-wowser",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
