@@ -3,7 +3,7 @@ module.exports = {
     // Require type-safe equality comparisons, except when comparing with null literals
     // https://eslint.org/docs/rules/eqeqeq
     'eqeqeq': ['error', 'always', {
-      'null': 'ignore'
+      'null': 'ignore',
     }],
 
     // Warn on use of console
@@ -40,6 +40,6 @@ module.exports = {
 
     // Prohibit invalid JSDoc annotations (when present)
     // https://eslint.org/docs/rules/valid-jsdoc
-    'valid-jsdoc': 'error'
-  }
+    'valid-jsdoc': 'error',
+  },
 };
