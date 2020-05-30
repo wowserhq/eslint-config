@@ -4,19 +4,24 @@ module.exports = {
     // https://eslint.org/docs/rules/constructor-super
     'constructor-super': 'error',
 
-    // Ensure imports point to resolveable modules
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-    'import/no-unresolved': ['error', {
-      commonjs: true,
-      caseSensitive: true,
-    }],
-
     // Ensure const variables are not reassigned or modified
     // https://eslint.org/docs/rules/no-const-assign
     'no-const-assign': 'error',
 
+    // Ensure RegExp strings are valid
+    // https://eslint.org/docs/rules/no-invalid-regexp
+    'no-invalid-regexp': 'error',
+
     // Ensure super() is called first in constructors (for derived classes)
     // https://eslint.org/docs/rules/no-this-before-super
     'no-this-before-super': 'error',
+
+    // Disallow undeclared variables
+    // https://eslint.org/docs/rules/no-undef
+    'no-undef': 'error',
+
+    // Disallow unused variables
+    // https://eslint.org/docs/rules/no-unused-vars
+    'no-unused-vars': 'error',
   },
 };

@@ -10,6 +10,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-console
     'no-console': 'warn',
 
+    // Prohibit silently overriding class members
+    // https://eslint.org/docs/rules/no-dupe-class-members
+    'no-dupe-class-members': 'error',
+
     // Prohibit overwriting / reassigning exception objects
     // https://eslint.org/docs/rules/no-ex-assign
     'no-ex-assign': 'error',
@@ -34,9 +38,25 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unsafe-negation
     'no-unsafe-negation': 'error',
 
+    // Prohibit constructors when default is sufficient
+    // https://eslint.org/docs/rules/no-useless-constructor
+    'no-useless-constructor': 'error',
+
+    // Require variables to be declared with let or const instead of var
+    // https://eslint.org/docs/rules/no-var
+    'no-var': 'error',
+
     // Prohibit padding at beginning/end of blocks, classes and switch statements
     // https://eslint.org/docs/rules/padded-blocks
     'padded-blocks': ['error', 'never'],
+
+    // Suggest using const
+    // https://eslint.org/docs/rules/prefer-const
+    'prefer-const': 'error',
+
+    // Require template literals instead of string concat
+    // https://eslint.org/docs/rules/prefer-template
+    'prefer-template': 'error',
 
     // Prohibit invalid JSDoc annotations (when present)
     // https://eslint.org/docs/rules/valid-jsdoc

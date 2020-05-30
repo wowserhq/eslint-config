@@ -1,10 +1,9 @@
 module.exports = {
   extends: [
-    './rules/general/format',
-    './rules/general/style',
-    './rules/general/error',
-    './rules/es2015/style',
-    './rules/es2015/error',
+    './rules/error',
+    './rules/format',
+    './rules/import',
+    './rules/style',
   ].map(require.resolve),
 
   parserOptions: {
