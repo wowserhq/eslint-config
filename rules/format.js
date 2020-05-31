@@ -4,6 +4,12 @@ module.exports = {
     // https://eslint.org/docs/rules/array-bracket-spacing
     'array-bracket-spacing': ['error', 'never'],
 
+    // Prohibit arrow function braces when possible
+    // https://eslint.org/docs/rules/arrow-body-style
+    'arrow-body-style': ['error', 'as-needed', {
+      requireReturnForObjectLiteral: false,
+    }],
+
     // Require one true brace style, but allow single line braces
     // https://eslint.org/docs/rules/brace-style
     'brace-style': ['error', '1tbs', {
